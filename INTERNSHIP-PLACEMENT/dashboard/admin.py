@@ -2,7 +2,7 @@ from django.contrib import admin
 from .models import placementInfo, internshipInfo, Student_placement, Student_internship
 # Register your models here.
 
-
+# hello this is comment
 class PlacementAdmin(admin.ModelAdmin):
     list_display = ('id', 'company_username', 'company_name', 'package', 'domain', 'cgpa_req', 'backlog', 'comimg',
                     'company_email', 'company_phone', 'company_website', 'regform_link', 'status')
